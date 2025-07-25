@@ -1,0 +1,60 @@
+<svg viewBox="0 -0.5 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#E52020" style="background-color: #E52020">
+    <style>
+    #Shape {
+        transform: translateY(-0.6px);
+    }
+        polygon {
+            animation: spin 4s ease-in-out infinite;
+            transform-origin: center center;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            15% {
+                transform: rotate(0deg);
+            }
+            90% {
+                transform: rotate(360deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+    <g id="" stroke-width="0">
+    </g>
+    <g id="" stroke-linecap="round" stroke-linejoin="round">
+    </g>
+    <g id="">
+        <title>
+            star
+        </title>
+        <desc>
+            Created by bunny_pi
+        </desc>
+        <defs>
+        </defs>
+        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g fill="#ffd270">
+                <g id="Icons">
+                    <g id="star">
+                        <g id="Shape">
+                            <polygon points="27.865 31.83 17.615 26.209 7.462 32.009 9.553 20.362 0.99 12.335 12.532 10.758 17.394 0 22.436 10.672 34 12.047 25.574 20.22">
+                                <!-- <animateTransform
+                                    attributeName="transform"
+                                    type="rotate"
+                                    from="0 17.54 17.62"
+                                    to="360 17.54 17.62"
+                                    dur="6s"
+                                    repeatCount="indefinite" /> -->
+                            </polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

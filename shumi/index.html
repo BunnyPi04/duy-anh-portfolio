@@ -11,7 +11,7 @@
         body {
             margin: 0;
             padding: 0;
-            background-image: url('../images/2.jpg');
+            background-image: url('../images/Home.jpg');
             width: 100%;
             height: 100vh;
             background-size: cover;
@@ -33,6 +33,7 @@
         .right {
             width: 50%;
             display: inline-block;
+            text-align: center;
         }
         .menu {
             background-color: #ECDFCC;
@@ -85,6 +86,36 @@
             text-align: center;
         }
 
+        .intro {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 16px;
+        }
+
+        .footer {
+            margin-left: 15%;
+            margin-top: 15%;
+            display: inline-block;
+            background-color: #ECDFCC;
+            border-radius: 10px;
+        }
+
+        .footer img {
+            width: 220px;
+            height: auto;
+            border-radius: 8px;
+            float: left;
+            padding: 16px;
+        }
+        .image-text {
+            float: left;
+            margin-left: 16px;
+        }
+
+        .image-text p {
+            font-size: 20px;
+        }
+
         .avatar {
             width: 300px;
             height: 300px;
@@ -100,9 +131,9 @@
         }
 
         .content {
-            background-color: #ECDFCC;
+            background-color: #CADABF;
             margin: 32px;
-            padding-bottom: 32px;
+            min-height: 700px;
         }
 
         table {
@@ -110,61 +141,33 @@
             margin-left: 32px;
             font-size: 20px;
             line-height: 1.5;
+            margin-top: 32px;
+            margin-right: 32px;
         }
 
-        .content table th {
+        table img {
+            height: 200px;
+        }
+
+        table th {
             padding-right: 32px;
         }
 
         .page-name {
             text-align: center;
-            padding-top: 32px;
-            padding-bottom: 28px;
-            font-size: 40px;
+            padding-top: 300px;
+            font-size: 80px;
             font-weight: bold;
-        }
-        .flag {
-            width: 30px;
-            height: 30px;
-            overflow: hidden;
-            float: left;
-            border-radius: 50px;
-            margin-right: 13px;
-        }
-
-        .flag img {
-            width: 100%;
-            height: auto;
-        }
-
-        .nation {
-            display: inline-block;
-            height: 30px;
-            line-height: 30px;
-        }
-
-        .seigatsu {
-            text-align: left;
-            margin-left: 32px;
-        }
-
-        .university {
-            text-align: left;
-            margin-left: 32px;
-            margin-bottom: 32px;
-        }
-
-        .university img {
-            height: 200px;
+            font-family: "Kosugi Maru", sans-serif;
         }
     </style>
     <body>
         <div class="menu">
             <div class="menu-item">
-                <a href="../shumi/index.html">趣味</a>
+                <a href="/index.html">趣味</a>
             </div>
             <div class="menu-item">
-                <a href="/index.html">プロフィール</a>
+                <a href="../profile/index.html">プロフィール</a>
             </div>
             <div class="menu-item">
                 <a href="../index.html">ホーム</a>
@@ -173,46 +176,30 @@
         <section class="container">
             <div class="left">
                 <div class="content">
-                    <div class="page-name">プロフィール</div>
-                    <table>
-                        <tr><th>名前:</th><th>Duy Anh Nguyen</th></tr>
-                        <tr><th>年齢:</th><td>26</td></tr>
-                        <tr><th>メール:</th><td>f124130@m.chukyo-u.ac.jp</td></tr>
-                        <tr><th>電話:</th><td>08036571800</td></tr>
-                        <tr>
-                            <th>国籍:</th>
-                            <td>
-                                <div class="flag"><img src="../images/flag.svg"></div>
-                                <div class="nation">ベトナム</div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>教育</th>
-                            <td>
-                                <ul>
-                                    <li><b>Before 2020:</b> ベトナムのハノイにある中学校</li>
-                                    <li><b>2020 - 2023:</b> ベトナムのハノイ工科大学</li>
-                                    <li><b>2023 - Now:</b> 中京大学</li>
-                                </ul>
-                            </td>
-                        </tr>
-                    </table>
-                    <p class="seigatsu">
-                        現在は大阪に住んでいて、中京大学経営学部で勉強しています。<br/>
-                    </p>
-                    <div class="university">
-                        <img src="chukyou.jpg">
-                    </div>
+                    <div class="page-name">趣味</div>
                 </div>
             </div>
             <div class="right">
-                <div class="avatar">
-                    <img src="../images/profile.jpg" alt="Avatar">
-                </div>
-                <div class="text">
-                    <h1 class="title">Duy<br/>Anh<br/>Nguyen</h1>
-                    <h2 class="sub-title">中<br/>京<br/>大<br/>学</h2>
-                </div>
+                <table>
+                    <tr>
+                        <th>
+                            <img src="travel.jpg" alt="よさこい" class="flag">
+                        </th>
+                        <td><strong>旅行すること</strong></td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img src="yosakoi.jpg" alt="よさこい" class="flag">
+                        </th>
+                        <td><strong>よさこい</strong>は日本の伝統的な踊りを現代風にアレンジしたもので、活気がありとても楽しいです。</td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <img src="vinyl.jpg" alt="よさこい" class="flag">
+                        </th>
+                        <td>様々なジャンルの<strong>音楽を聴く</strong>を聴くのが好きで、特にポップスやJ-POPが好きです。</td>
+                    </tr>
+                </table>
             </div>
         </section>
     </body>
